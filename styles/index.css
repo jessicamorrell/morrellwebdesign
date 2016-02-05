@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+body {
+	margin:0px;
+}
+
+* {
+	font-family:'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+.provo {
+	background:url(../images/provo.jpg) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.filter {
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+}
+
+.name {
+	padding-top:10px;
+	padding-bottom:15%;
+	margin-top:0px;
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	font-family:'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+.transparentBox {
+	background:rgba(0,0,0,0.5);
+	padding-top:20px;
+}
+
+.icons {
+	height:auto;
+	width:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.iconWords {
+	color:#fff;
+	text-align:center;
+	font-weight:400;
+	font-size:35px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+#bioText {
+	color:#ff4d68; /*#D8335B; /*#f73b6a; /*#f27973 #F06862*/
+}
+
+#skillsText {
+	color:#40A18D; /*#47B39D; /*#06BAB4;*/
+}
+
+#futureText {
+	color:#ff9900;
+}
+
+#contactText {
+	color:#2a82bb; /*#3B97D3*/
+}
+
+.bio {
+	background-color:#ff4d68;/*#ff3352;/*#ff007b;/*#ff0066; /*#da3e64; /*#D8335B; /*#f73b6a; /*#ff5500 #f27973 #F06862 #E76B6B*/
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.bioWords {
+	color:#fff;
+	font-size: 24px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align: left;
+	vertical-align: center;
+	margin-left:7%;
+	margin-right:7%;
+	padding-top:2%;
+}
+
+.bioWordsHeading {
+	color:#fff;
+	font-size: 25px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align: left;
+	vertical-align: center;
+	margin-left:2%;
+	margin-right:2.5%;
+	padding-top:1.5%;
+}
+
+.bioWordsContainer {
+	display:inline-block;
+
+}
+
+.iconHeader {
+	display:inline-block;
+	width:10%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align:top;
+	padding-left:8px;
+	padding-top:8px;
+}
+
+.textHeader {
+	display:inline-block;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:50px;
+	font-weight:300;
+	padding-top:8px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+.skills {
+	background-color:#40A18D; /*#47B39D; /*#06BAB4 #47B39D 249991*/
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.skillSpace {
+	width:100%;
+	height:20px;
+}
+	
+.skillsWords {
+	color:#fff;
+	font-size: 20px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+	vertical-align: center;
+}
+
+.skillsIcons {
+	display:block;
+	width:50%;
+	height:auto;
+	text-align:center;
+	vertical-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.skillsFooter {
+	text-align: center;
+	color:white;
+	font-weight:200px;
+	margin-bottom:0px;
+
+}
+
+.future {
+	background-color:#ff9900;
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.futureWords {
+	color:#fff;
+	font-size:30px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+	padding-top:5%;
+}
+
+.contact {
+	background-color:#2a82bb; /*#3B97D3 #42729B*/
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.contactWords {
+	color:#fff;
+	font-size: 30px;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+	vertical-align: center;
+	margin-top:15px;
+}
+
+#contact {
+	padding-bottom:15%;
+}
+
+.contactFooter {
+	text-align:center;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	color:#fff;
+	font-size:18px;
+	padding-top:2%;
+}
+
+.onepage-pagination li a.active:before {
+	border:2px solid white !important;
+}
+
+.onepage-pagination li a:before {
+	background:white !important;
+}
+
+/* Larger Screens */
+@media (min-width: 768px) { 
+	.iconBox {
+		bottom:10px;
+	}	
+	
+}
+
+/* Smaller Screens */
+@media (max-width: 767px) { 
+	.icons {
+		width: 25%;
+	}
+	.skillsIcons {
+		width: 25%;
+	}
+	.contactFooter {
+		width: 25%;
+		text-align:center;
+	}
+}
+
+
+/*body > .onepage-pagination > li:nth-child(1) > a {
+	background: url(../images/face.png) no-repeat center center;
+}
+body > .onepage-pagination > li:nth-child(2) > a {
+	background: url(../images/face.png) no-repeat center center;
+}
+body > .onepage-pagination > li > a {
+	background-size: contain !important;
+	height:45px;
+	width:45px;
+}
+body > .onepage-pagination > li > a:before {
+	display: none;
+}*/
